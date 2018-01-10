@@ -1,9 +1,12 @@
 {
-  "name": "cordovaframework7vuewebpacktemplate",
+  "name": "vue-cordova-webpack-framework7-template",
   "version": "1.0.0",
-  "description": "Brand new cordova project with framework7 - vue - webpack!",
+  "description": "A template that allows you to create a project preconfigured with Vue + Framework7 + Webpack + Cordova for iOS or Android Apps.",
   "scripts": {
-    "default": "echo \"There is no scripts you can run with npm run command.\" && exit 1"
+    "dev:android": "cordova run android -- --lr --device",
+    "dev:ios": "cordova run ios -- --lr --device",
+    "build": "npm run clean && webpack",
+    "clean": "rimraf www"
   },
   "keywords": [
     "ecosystem:cordova"
@@ -22,6 +25,7 @@
     "html-webpack-plugin": "^2.28.0",
     "node-sass": "^4.5.0",
     "path": "^0.12.7",
+    "rimraf": "^2.6.2",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.19.0",
     "svg-url-loader": "^2.0.2",
