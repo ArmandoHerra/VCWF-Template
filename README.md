@@ -24,7 +24,7 @@
 # IMPORTANT!
 # This fork will be maintained by me, Armando Herra. Development and updates will soon come!
 
-# Framework7 - Vue - Webpack Cordova Template
+# Vue + Webpack + Cordova + Framework7 - Template
 You can start your new cordova project perfectly with this template.
 
 This template uses:
