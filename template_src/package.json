@@ -1,6 +1,6 @@
 {
   "name": "vue-cordova-webpack-framework7-template",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "A template that allows you to create a project preconfigured with Vue + Framework7 + Webpack + Cordova for iOS or Android Apps.",
   "scripts": {
     "dev:android": "cordova run android -- --lr --device",
