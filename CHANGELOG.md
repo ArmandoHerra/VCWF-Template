@@ -1,3 +1,8 @@
+## 11.01.2018 - 1.3.1
+* Added support for the 7-1 patter for scss styles although the styles that come with the template haven't been correctly placed in their respective .scss files according to the template, wait until release 1.3.2 for this.
+* Added additional npm script `npm run dev:browser` will open un a dashboard for visualizing the webpack build status and other information while in development mode and also opens up a development server that has live-reload capabilities.
+* Added the /platforms and /www folders to the .gitignore file for easier commits, these files will only be used for development and production of an app.
+
 ## 11.01.2018 - 1.3.0
 * Information update for this fork.
 * Updated package.json with additional scripts and dependencies.

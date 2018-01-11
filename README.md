@@ -1,28 +1,9 @@
-<!--
-#
-# Licensed to the Apache Software Foundation (ASF) under one
-# or more contributor license agreements.  See the NOTICE file
-# distributed with this work for additional information
-# regarding copyright ownership.  The ASF licenses this file
-# to you under the Apache License, Version 2.0 (the
-# "License"); you may not use this file except in compliance
-# with the License.  You may obtain a copy of the License at
-#
-# http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing,
-# software distributed under the License is distributed on an
-# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-#  KIND, either express or implied.  See the License for the
-# specific language governing permissions and limitations
-# under the License.
-#
--->
-
 ![template logo](logo.png "template logo")
 
 # IMPORTANT!
-# This fork will be maintained by me, Armando Herra. Development and updates will soon come!
+# This template is being maintained by, Armando Herra.
+# Updates and new releases of the template can be found on it's main repository.
+# Repository on [GitHub](https://github.com/SekethThoth/VCWF-Template)
 
 # Vue + Webpack + Cordova + Framework7 - Template
 You can start your new cordova project perfectly with this template.
@@ -44,6 +25,14 @@ For live-reload i can't find easy way to do fixed version of this. But you can d
 1. `cordova platform add ios browser` (browser needs for development in live-reload mode.)
 2. `cordova run ios -- --lr` (wait till app opens in your ios emulator or phone. it will close console output after publish, so live-reload will not work. don't close the app and go to next step.)
 3. `cordova run browser -- --lr` (you can use live-reload in your phone-emulator and browser at same time. you can edit your files in live-reload mode now.)
+
+## Basic Instructions:
+1. Clone this repository.
+2. Using the terminal navigate into the template_src directory.
+3. Run `npm install` inside the template_src directory.
+4. Run `npm run build` after the previous command.
+5. Run `cordova platform add android browser ios`.
+6. You are ready to run the ios apps from Xcode and Android apps using `npm run dev:android` while having an Android device connected.
 
 ---
 
