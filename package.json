@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SekethThoth/vue-cordova-webpack-framework7-template.git"
+    "url": "https://github.com/SekethThoth/VCWF-Template.git"
   },
-  "homepage": "https://github.com/SekethThoth/vue-cordova-webpack-framework7-template",
+  "homepage": "https://github.com/SekethThoth/VCWF-Template",
   "keywords": [
     "ecosystem:phonegap",
     "ecosystem:cordova",
