@@ -1,3 +1,8 @@
+## 11.01.2018 - 1.3.0
+* Information update for this fork.
+* Updated package.json with additional scripts and dependencies.
+* Added cordova-plugin-whitelist.
+
 ## 29.11.2017 - 1.2.1
 * Updated dependencies.
 * Fixed device.js related errors.
