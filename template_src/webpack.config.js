@@ -37,12 +37,43 @@ let config = function (env) {
     
     module: {
       rules: [
-        {test: /\.(png|jpe?g|gif)$/, loader: 'file-loader', options: {name: '[name].[ext]?[hash]'}},
-        {test: /\.(woff2?|eot|ttf|otf|mp3|wav)(\?.*)?$/, loader: 'file-loader', options: {name: '[name].[ext]?[hash]'}},
-        {test: /\.svg$/, loader: 'url-loader'},
-        {test: /\.scss$/, loader: [ 'vue-style-loader', 'css-loader', 'sass-loader']},
-        {test: /\.sass$/, loader: [ 'vue-style-loader', 'css-loader', 'sass-loader?indentedSyntax']},
-        {test: /\.vue$/, loader: 'vue-loader'}
+        {
+          test: /\.(png|jpe?g|gif)$/,
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]?[hash]'
+          }
+        },
+        {
+          test: /\.(woff2?|eot|ttf|otf|mp3|wav)(\?.*)?$/,
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]?[hash]'
+          }
+        },
+        {
+          test: /\.svg$/,
+          loader: 'url-loader'
+        },
+        {
+          test: /\.scss$/,
+          loader: [
+            'vue-style-loader',
+            'css-loader',
+            'sass-loader'
+          ]
+        },
+        {
+          test: /\.sass$/,
+          loader: [
+            'vue-style-loader',
+            'css-loader',
+            'sass-loader?indentedSyntax'
+          ]
+        },
+        {
+          test: /\.vue$/, loader: 'vue-loader'
+        }
       ]
     },
     
