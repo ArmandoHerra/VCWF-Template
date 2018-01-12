@@ -1,3 +1,8 @@
+## 12.01.2018 - 1.3.2
+* Re-arranged existing components into a more modular setup to serve as an example.
+* Made a custom style change demonstration on the main-view component. Using the now in place 7-1 pattern for custom scss styles.
+* Slight refactor of files and code.
+
 ## 11.01.2018 - 1.3.1
 * Added support for the 7-1 patter for scss styles although the styles that come with the template haven't been correctly placed in their respective .scss files according to the template, wait until release 1.3.2 for this.
 * Added additional npm script `npm run dev:browser` will open un a dashboard for visualizing the webpack build status and other information while in development mode and also opens up a development server that has live-reload capabilities.

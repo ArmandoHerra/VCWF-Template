@@ -1,6 +1,6 @@
 {
   "name": "vcwf-template",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Cordova template with Framework7, Vue.js 2 and Webpack 3.",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SekethThoth/VCWF-Template.git"
+    "url": "https://github.com/ArmandoHerra/VCWF-Template.git"
   },
-  "homepage": "https://github.com/SekethThoth/VCWF-Template",
+  "homepage": "https://github.com/ArmandoHerra/VCWF-Template",
   "keywords": [
     "ecosystem:phonegap",
     "ecosystem:cordova",

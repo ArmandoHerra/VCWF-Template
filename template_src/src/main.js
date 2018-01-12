@@ -7,13 +7,31 @@ import Framework7 from 'framework7'
 // Import F7 Vue Plugin
 import Framework7Vue from 'framework7-vue'
 
-// Import F7 iOS Theme Styles
-import Framework7Theme from 'framework7/dist/css/framework7.ios.min.css'
-import Framework7ThemeColors from 'framework7/dist/css/framework7.ios.colors.min.css'
-/* 
-// OR for Material Theme:
- import Framework7Theme from 'framework7/dist/css/framework7.material.min.css'
- import Framework7ThemeColors from 'framework7/dist/css/framework7.material.colors.min.css'
+var isMobile = {
+  Android: function() {
+      return navigator.userAgent.match(/Android/i);
+  },
+  iOS: function() {
+      return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  any: function() {
+      return (isMobile.Android() || isMobile.iOS());
+  }
+};
+
+if (isMobile.Android()) {
+  const Framework7 = require('framework7/dist/css/framework7.material.min.css');
+  const Framework7ThemeColors = require('framework7/dist/css/framework7.material.colors.min.css');
+} else if (isMobile.iOS()) {
+  const Framework7Theme = require('framework7/dist/css/framework7.ios.min.css');
+  const Framework7ThemeColors = require('framework7/dist/css/framework7.ios.colors.min.css');
+}
+
+/*
+import Framework7Theme from 'framework7/dist/css/framework7.ios.min.css';
+import Framework7ThemeColors from 'framework7/dist/css/framework7.ios.colors.min.css';
+import Framework7Theme from 'framework7/dist/css/framework7.material.min.css';
+import Framework7ThemeColors from 'framework7/dist/css/framework7.material.colors.min.css';
 */
 
 // Import App Custom Styles
