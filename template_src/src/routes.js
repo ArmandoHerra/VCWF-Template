@@ -8,6 +8,10 @@ export default [
     component: require('./assets/vue/pages/form.vue')
   },
   {
+    path: '/map',
+    component: require('./assets/vue/pages/google-maps.vue')
+  },
+  {
     path: '/dynamic-route/blog/:blogId/post/:postId/',
     component: require('./assets/vue/pages/dynamic-route.vue')
   }

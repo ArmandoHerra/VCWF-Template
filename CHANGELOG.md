@@ -1,3 +1,9 @@
+## 15.01.2018 - 1.3.3
+* Updated Vue from v2.2.4 to v2.5.13
+* Added axios as a dependency to make API calls.
+* Added vue2-google-maps to be able to use google maps inside the apps.
+* Made a demo page that is accessible from the main view and that displays a working google map.
+
 ## 12.01.2018 - 1.3.2
 * Re-arranged existing components into a more modular setup to serve as an example.
 * Made a custom style change demonstration on the main-view component. Using the now in place 7-1 pattern for custom scss styles.
