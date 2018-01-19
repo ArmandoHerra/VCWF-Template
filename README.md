@@ -34,7 +34,7 @@ For live-reload i can't find easy way to do fixed version of this. But you can d
 4. Run `npm run build` after the previous command.
 5. Run `cordova platform add android browser ios`.
 6. You are ready to run the ios apps from Xcode, Android apps using `npm run dev:android` while having an Android device connected and developing directly in the browser using `npm run dev:browser`.
-7. Another script that exists to get the repository ready and running a browser version of the Kitchen Sink app is using `npm run initialize`, just wait for all the dependencies to install, the code to be built, the cordova platforms to be added to the project and the browser to respond to the script.
+7. Another script that exists to get the repository ready and running a browser version of the Kitchen Sink app is using `npm run init`, just wait for all the dependencies to install, the code to be built, the cordova platforms to be added to the project and the browser to respond to the script.
 
 ---
 
