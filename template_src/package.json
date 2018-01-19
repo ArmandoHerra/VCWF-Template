@@ -12,7 +12,7 @@
     "dev:android": "webpack-dashboard -- cordova run android -- --lr --device",
     "dev:browser": "webpack-dashboard -- cordova run browser -- --lr",
     "dev:ios": "cordova run ios -- --lr",
-    "initialize": "npm install && npm run build && npm run add:platforms && npm run dev:browser",
+    "init": "npm install && npm run build && npm run add:platforms && npm run dev:browser",
     "serve": "webpack-dashboard -- webpack-dev-server"
   },
   "keywords": [
