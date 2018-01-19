@@ -1,3 +1,9 @@
+## 19.01.2018 - 1.4.0
+* Updated Framework7 & Framework7-vue dependencies.
+* Framework7 is using v2.0.6 and Framework7-vue is using v2.0.0
+* Refactor and code formatting.
+* Added and connected Framework7-vue's kitchen sink app available on [GitHub](https://github.com/framework7io/framework7-vue)
+
 ## 15.01.2018 - 1.3.3
 * Updated Vue from v2.2.4 to v2.5.13
 * Added axios as a dependency to make API calls.

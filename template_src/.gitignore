@@ -269,3 +269,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 !/webpack/configs/
+
+# Cordova
+platforms/
+www/

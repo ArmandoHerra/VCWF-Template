@@ -27,10 +27,6 @@ local.properties
 .loadpath
 .recommenders
 
-# Cordova
-platforms/
-www/
-
 # Eclipse Core
 .project
 

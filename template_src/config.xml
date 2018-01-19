@@ -2,7 +2,7 @@
 <widget id="com.example.template" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <hook src="hooks/hookers.js" type="before_prepare" />
     <hook src="hooks/beforedep.js" type="before_deploy" />
-    <name>Vue + Cordova + Webpack + Framework7 -   Template</name>
+    <name>Vue + Cordova + Webpack + Framework7 - Template</name>
     <description>
         A new Vue + Cordova Project for Apps!
     </description>

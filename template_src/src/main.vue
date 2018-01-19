@@ -1,29 +1,24 @@
 <template>
-	<!-- App -->
-	<div id="app">
-		<!-- Statusbar -->
-		<f7-statusbar></f7-statusbar>
-		<app-left-panel></app-left-panel>
-		<app-right-panel></app-right-panel>
-		<app-view></app-view>
-		<app-popup></app-popup>
-		<app-login-screen></app-login-screen>
-	</div>
+  <div id="app">
+    <f7-statusbar></f7-statusbar>
+    <f7-panel left cover>
+      <f7-view url="/panel-left/" links-view=".view-main" />
+    </f7-panel>
+    <f7-panel right reveal>
+      <f7-view url="/panel-right/">
+      </f7-view>
+    </f7-panel>
+    <f7-view url="/" :main="true" class="ios-edges">
+    </f7-view>
+  </div>
 </template>
-
 <script>
-	import LeftPanel from './assets/vue/components/left-panel';
-	import RightPanel from './assets/vue/components/right-panel';
-	import Popup from './assets/vue/components/popup';
-	import LoginScreen from './assets/vue/components/login-screen';
-	import View from './assets/vue/pages/main-view';
-	export default {
-		components: {
-			'app-left-panel' : LeftPanel,
-			'app-right-panel' : RightPanel,
-			'app-popup' : Popup,
-			'app-login-screen' : LoginScreen,
-			'app-view' : View
-		}
-	}
+  import { f7Panel, f7View, f7Statusbar } from "framework7-vue";
+  export default {
+    components: {
+      f7Panel,
+      f7View,
+      f7Statusbar
+    }
+  };
 </script>

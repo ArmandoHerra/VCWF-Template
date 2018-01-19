@@ -1,64 +1,33 @@
-// Import Vue
-import Vue from 'vue'
+/* eslint import/no-extraneous-dependencies: "off" */
+import Vue from 'vue';
+import Framework7 from 'framework7/dist/framework7.esm.bundle';
+import Framework7Vue from 'framework7-vue'; // eslint-disable-line
+import AppStyles from './assets/sass/main.scss'
+import routes from './routes.js'
+import app from './main.vue'
+import Framework7Theme from 'framework7/dist/css/framework7.css'
+import customTheme from './assets/css/app.css'
 
-// Import F7
-import Framework7 from 'framework7'
+// Install Plugin
+Vue.use(Framework7Vue, Framework7);
 
-// Import F7 Vue Plugin
-import Framework7Vue from 'framework7-vue'
-
-var isMobile = {
-  Android: function() {
-      return navigator.userAgent.match(/Android/i);
-  },
-  iOS: function() {
-      return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-  },
-  any: function() {
-      return (isMobile.Android() || isMobile.iOS());
-  }
-};
-
-if (isMobile.Android()) {
-  const Framework7 = require('framework7/dist/css/framework7.material.min.css');
-  const Framework7ThemeColors = require('framework7/dist/css/framework7.material.colors.min.css');
-} else if (isMobile.iOS()) {
-  const Framework7Theme = require('framework7/dist/css/framework7.ios.min.css');
-  const Framework7ThemeColors = require('framework7/dist/css/framework7.ios.colors.min.css');
+// Demo Theme
+let theme = 'auto';
+if (document.location.search.indexOf('theme=') >= 0) {
+  theme = document.location.search.split('theme=')[1].split('&')[0];
 }
 
-/*
-import Framework7Theme from 'framework7/dist/css/framework7.ios.min.css';
-import Framework7ThemeColors from 'framework7/dist/css/framework7.ios.colors.min.css';
-import Framework7Theme from 'framework7/dist/css/framework7.material.min.css';
-import Framework7ThemeColors from 'framework7/dist/css/framework7.material.colors.min.css';
-*/
-
-// Import App Custom Styles
-import AppStyles from './assets/sass/main.scss'
-
-// Import Routes
-import Routes from './routes.js'
-
-// Import App Component
-import App from './main.vue'
-
-// Init F7 Vue Plugin
-Vue.use(Framework7Vue)
-
-// Init App
-new Vue({
+// Init Vue App
+export default new Vue({
+  // Root Element
   el: '#app',
-  template: '<app/>',
-  // Init Framework7 by passing parameters here
-  framework7: {
-    root: '#app',
-    /* Uncomment to enable Material theme: */
-    material: true,
-    routes: Routes
-  },
-  // Register App Component
+  render: c => c('app'),
   components: {
-    app: App
-  }
-})
+    app,
+  },
+  framework7: {
+    id: 'io.framework7.testapp',
+    theme,
+  },
+  routes,
+});

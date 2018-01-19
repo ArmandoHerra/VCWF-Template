@@ -1,9 +1,10 @@
-![template logo](logo.png "template logo")
+![template logo](template_logo.png "template logo")
 
 # IMPORTANT!
-# This template is being maintained by, Armando Herra.
-# Updates and new releases of the template can be found on it's main repository.
-# Repository on [GitHub](https://github.com/SekethThoth/VCWF-Template)
+## This template is being maintained by, Armando Herra.
+## The current release version of this template is v1.4.0
+## Updates and new releases of the template can be found on it's main repository.
+# Repository on [GitHub](https://github.com/ArmandoHerra/VCWF-Template)
 
 # Vue + Webpack + Cordova + Framework7 - Template
 You can start your new cordova project perfectly with this template.
@@ -11,7 +12,7 @@ You can start your new cordova project perfectly with this template.
 This template uses:
 * [Framework7](https://framework7.io)
 * [Vue Js 2](https://vuejs.org/)
-* [Webpack 2](https://webpack.github.io/)
+* [Webpack 3](https://webpack.github.io/)
 
 
 ## Minimum Requirements
@@ -32,7 +33,8 @@ For live-reload i can't find easy way to do fixed version of this. But you can d
 3. Run `npm install` inside the template_src directory.
 4. Run `npm run build` after the previous command.
 5. Run `cordova platform add android browser ios`.
-6. You are ready to run the ios apps from Xcode and Android apps using `npm run dev:android` while having an Android device connected.
+6. You are ready to run the ios apps from Xcode, Android apps using `npm run dev:android` while having an Android device connected and developing directly in the browser using `npm run dev:browser`.
+7. Another script that exists to get the repository ready and running a browser version of the Kitchen Sink app is using `npm run initialize`, just wait for all the dependencies to install, the code to be built, the cordova platforms to be added to the project and the browser to respond to the script.
 
 ---
 
@@ -64,7 +66,7 @@ cordova create <project_create_dir> [com.example.projectname] [ProjectClassName]
 phonegap create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-framework7-vue-webpack
 ```
 
-boom! :boom: you have your brand new cordova / phonegap project with framework7 - vue 2 and webpack 2!
+boom! :boom: you have your brand new cordova / phonegap project with framework7 - vue 2 and webpack 3!
 
 ![such a wow!](https://cloud.githubusercontent.com/assets/296796/3511506/4042665c-06b0-11e4-953c-4f14c11f81ec.png "such a wow!")
 
