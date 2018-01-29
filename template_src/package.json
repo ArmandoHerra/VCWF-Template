@@ -9,11 +9,10 @@
     "build:cordova": "cordova build",
     "clean": "rimraf www",
     "clean:all": "rimraf www platforms node_modules",
-    "dev:android": "webpack-dashboard -- cordova run android -- --lr --device",
-    "dev:browser": "webpack-dashboard -- cordova run browser -- --lr",
+    "dev:android": "cordova run android -- --lr --device",
+    "dev:browser": "cordova run browser -- --lr",
     "dev:ios": "cordova run ios -- --lr",
-    "init": "npm install && npm run build && npm run add:platforms && npm run dev:browser",
-    "serve": "webpack-dashboard -- webpack-dev-server"
+    "init": "npm install && npm run build && npm run add:platforms && npm run dev:browser"
   },
   "keywords": [
     "ecosystem:cordova"
