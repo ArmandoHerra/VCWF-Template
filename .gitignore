@@ -301,3 +301,4 @@ captures/
 .externalNativeBuild
 
 !/template_src/webpack/configs/
+.vscode/
