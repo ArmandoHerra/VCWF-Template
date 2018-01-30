@@ -1,3 +1,7 @@
+## 30.01.2018 - 1.4.1
+* Updated dependencies.
+* Rearranged README.md to be more clear.
+
 ## 19.01.2018 - 1.4.0
 * Updated Framework7 & Framework7-vue dependencies.
 * Framework7 is using v2.0.6 and Framework7-vue is using v2.0.0

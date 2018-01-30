@@ -2,7 +2,7 @@
 
 ## IMPORTANT!
 ## This template is being maintained by, Armando Herra.
-## The current release version of this template is v1.4.0
+## The current release version of this template is v1.4.1
 ## Updates and new releases of the template can be found on it's main repository.
 ## Repository is here --> [GitHub](https://github.com/ArmandoHerra/VCWF-Template)
 
@@ -30,13 +30,18 @@ This template need cordova or phonegap, for more information [cordova installati
 ---
 
 ## Basic Install Instructions:
-1. Clone this repository.
-2. Using the terminal navigate into the template_src directory.
-3. Run `npm install` inside the template_src directory.
-4. Run `npm run build` after the previous command.
-5. Run `cordova platform add android browser ios`.
-6. You are ready to run the ios apps from Xcode, Android apps using `npm run dev:android` while having an Android device connected and developing directly in the browser using `npm run dev:browser`.
-7. **Another script that exists to get the repository ready and running a browser version of the Kitchen Sink app is using `npm run init`, just wait for all the dependencies to install, the code to be built, the cordova platforms to be added to the project and the browser to respond to the script.**
+
+- There are two ways of getting this repository working with the kitchen sink app that is already configured into the template:
+
+    - Use `npm run init` inside the template_src/ directory, just wait for all the dependencies to install, the code to be built, the cordova platforms to be added to the project and the browser to respond to the script.
+
+- The other step by step way of getting the repository working:
+    1. Clone this repository.
+    2. Using the terminal navigate into the template_src directory.
+    3. Run `npm install` inside the template_src directory.
+    4. Run `npm run build` after the previous command.
+    5. Run `cordova platform add android browser ios`.
+    6. You are ready to run the ios apps from Xcode, Android apps using `npm run dev:android` while having an Android device connected and developing directly in the browser using `npm run dev:browser`.
 
 ---
 
