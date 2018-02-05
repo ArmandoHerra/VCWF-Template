@@ -40,6 +40,11 @@ This template need cordova or phonegap, for more information [cordova installati
 
 ---
 
+ ## Instructions for adding Cordova plugins correctly.
+- Add the plugins using the following syntax `cordova plugin add {plugin name} --save` so the plugin is recognized and saved correctly in the project.
+
+---
+
 ## Live Reload Usage
 
 You can use every cordova | phonegap commands.
