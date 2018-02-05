@@ -1,6 +1,6 @@
 {
   "name": "vcwf-template",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A template that allows you to create a project preconfigured with Vue + Framework7 + Webpack + Cordova for iOS or Android Apps.",
   "scripts": {
     "add:platforms": "cordova platform add android browser ios",
