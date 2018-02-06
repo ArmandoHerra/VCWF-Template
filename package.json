@@ -1,6 +1,6 @@
 {
   "name": "vcwf-template",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Cordova template with Framework7, Vue.js 2 and Webpack 3.",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,8 @@
     "template",
     "webpack",
     "vue.js",
-    "vue"
+    "vue",
+    "framework7"
   ],
   "author": "Armando Herra",
   "license": "Apache-2.0"

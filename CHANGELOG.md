@@ -1,3 +1,10 @@
+## 06.02.2018 - 1.4.2
+* Added default splashscreens for Android & iOS.
+* Added default icons icons for Android & iOS.
+* Added default favicon.
+* Added default Cordova plugin configuration.
+* Modified the config.xml to match the plugin configurations.
+
 ## 30.01.2018 - 1.4.1
 * Updated dependencies.
 * Rearranged README.md to be more clear.
