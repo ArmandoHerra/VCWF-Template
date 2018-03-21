@@ -1,0 +1,13 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Vue + Cordova + Webpack + Framework7 - Template",
+  "short_name": "Vue + Cordova + Webpack + Framework7 - Template",
+  "version": "com.example.template",
+  "description": "A new Vue + Cordova Project for Apps!",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html",
+  "theme_color": "#5BC2E2"
+}
