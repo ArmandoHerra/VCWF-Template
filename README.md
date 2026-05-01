@@ -1,7 +1,7 @@
 ![template logo](readme_images/template_logo.png "template logo")
 
 ## IMPORTANT!
-## This template is being maintained by, Armando Herra.
+## This template is NO LONGER BEING MAINTAINED. Its only available as a historic reference now.
 ## The current release version of this template is v1.4.2
 ## Updates and new releases of the template can be found on it's main repository.
 ## Repository is here --> [GitHub](https://github.com/ArmandoHerra/VCWF-Template)
